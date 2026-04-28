@@ -8,14 +8,12 @@
 body {
     background: #0f172a;
     color: #e2e8f0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
+    min-height: 100vh;
+    padding: 20px;
 }
 
 body > * {
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -39,7 +37,7 @@ button {
     color: white;
     cursor: pointer;
     transition: 0.2s;
-    margin: 5px;
+    margin: 5px 5px 5px 0;
 }
 
 button:hover {
@@ -55,7 +53,7 @@ button:hover {
     background: #1e293b;
     padding: 10px;
     border-radius: 8px;
-    margin: 8px auto;
+    margin: 8px 0;
     width: 300px;
     display: flex;
     justify-content: space-between;
